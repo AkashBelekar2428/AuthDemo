@@ -1,0 +1,16 @@
+PODS:
+  - AuthValidations (0.1.0)
+
+DEPENDENCIES:
+  - AuthValidations (from `../`)
+
+EXTERNAL SOURCES:
+  AuthValidations:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AuthValidations: f524dfc679fe8a2dba7326b869950b35e628950d
+
+PODFILE CHECKSUM: d8b09107b7b4848da8142bd0d347c66b2801efae
+
+COCOAPODS: 1.12.1
