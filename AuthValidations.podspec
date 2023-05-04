@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AuthValidations'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AuthValidations.'
+  s.summary          = 'Simple To Use.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  'In Authentication is an awesome pod to make your life easier around validations'
                        DESC
 
   s.homepage         = 'https://github.com/akashbelekar2428/AuthValidations'
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/akashbelekar2428/AuthValidations.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'AuthValidations/Classes/**/*'
+  s.ios.deployment_target = '16.2'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'AuthValidations' => ['AuthValidations/Assets/*.png']
